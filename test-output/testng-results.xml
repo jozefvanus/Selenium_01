@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-18T22:59:39Z" name="Default suite" finished-at="2022-10-18T22:59:48Z" duration-ms="8675">
+  <suite started-at="2022-10-19T13:32:01Z" name="Default suite" finished-at="2022-10-19T13:32:13Z" duration-ms="12253">
     <groups>
     </groups>
-    <test started-at="2022-10-18T22:59:39Z" name="Default test" finished-at="2022-10-18T22:59:48Z" duration-ms="8675">
-      <class name="com.example.NavigationTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.example.NavigationTest@3116c353]" started-at="2022-10-19T00:59:39Z" name="beforeMethod" finished-at="2022-10-19T00:59:41Z" duration-ms="1909" status="PASS">
+    <test started-at="2022-10-19T13:32:01Z" name="Default test" finished-at="2022-10-19T13:32:13Z" duration-ms="12253">
+      <class name="com.example.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.SearchTest@329dbdbf]" started-at="2022-10-19T15:32:01Z" name="setup" finished-at="2022-10-19T15:32:11Z" duration-ms="10023" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="navigateToAUrl()[pri:0, instance:com.example.NavigationTest@3116c353]" started-at="2022-10-19T00:59:41Z" name="navigateToAUrl" finished-at="2022-10-19T00:59:47Z" duration-ms="5959" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="searchProduct()[pri:0, instance:com.example.SearchTest@329dbdbf]" started-at="2022-10-19T15:32:11Z" name="searchProduct" finished-at="2022-10-19T15:32:12Z" duration-ms="1430" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateToAUrl -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.example.NavigationTest@3116c353]" started-at="2022-10-19T00:59:47Z" name="afterMethod" finished-at="2022-10-19T00:59:48Z" duration-ms="783" status="PASS">
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.SearchTest@329dbdbf]" started-at="2022-10-19T15:32:12Z" name="tearDown" finished-at="2022-10-19T15:32:13Z" duration-ms="752" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.example.NavigationTest -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.SearchTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
