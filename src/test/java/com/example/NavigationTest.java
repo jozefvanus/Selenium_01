@@ -12,7 +12,7 @@ public class NavigationTest {
     @BeforeMethod
     public void beforeMethod() {
 
-        // set path of Chrome driver executable
+        // set path of Chromedriver executable
         System.setProperty("webdriver.chrome.driver",
                 "src/test/resources/drivers/chromedriver.exe");
 
